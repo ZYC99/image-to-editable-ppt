@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+workspace/*
+!workspace/source/
+!workspace/crops/
+!workspace/assets/
+!workspace/ir/
+!workspace/pptx/
+!workspace/renders/
+!workspace/diff/
+
+.DS_Store
