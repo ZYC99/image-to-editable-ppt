@@ -1,0 +1,543 @@
+{
+  "version": "0.1",
+  "mode": "balanced",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "slide_size": {
+    "width_in": 13.333,
+    "height_in": 7.5
+  },
+  "metadata": {
+    "title": "Business Report Demo",
+    "description": "v0.1 hand-authored layout demo. No full-page screenshot background."
+  },
+  "elements": [
+    {
+      "id": "page_background",
+      "type": "shape",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "z_index": 0,
+      "shape": "rect",
+      "style": {
+        "fill": "#F6F7FB",
+        "stroke": "transparent"
+      }
+    },
+    {
+      "id": "accent_bar",
+      "type": "shape",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 0,
+      "y": 0,
+      "w": 28,
+      "h": 1080,
+      "z_index": 1,
+      "shape": "rect",
+      "style": {
+        "fill": "#1E6B5C",
+        "stroke": "transparent"
+      }
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 96,
+      "y": 72,
+      "w": 980,
+      "h": 70,
+      "z_index": 10,
+      "text": "Quarterly Growth Brief",
+      "style": {
+        "semantic_role": "title",
+        "font_family": "Aptos Display",
+        "font_size": 34,
+        "bold": true,
+        "color": "#15211D",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "subtitle",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 100,
+      "y": 142,
+      "w": 980,
+      "h": 42,
+      "z_index": 10,
+      "text": "FY2026 Q2 operating snapshot and forward scenario",
+      "style": {
+        "semantic_role": "subtitle",
+        "font_size": 15,
+        "color": "#62716B",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "page_tag_bg",
+      "type": "shape",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 1552,
+      "y": 78,
+      "w": 250,
+      "h": 50,
+      "z_index": 8,
+      "shape": "rounded_rect",
+      "style": {
+        "fill": "#E8F2EF",
+        "stroke": "#B7D1C9",
+        "stroke_width": 1
+      }
+    },
+    {
+      "id": "page_tag",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 1570,
+      "y": 91,
+      "w": 214,
+      "h": 26,
+      "z_index": 11,
+      "text": "BOARD PACK  /  04",
+      "style": {
+        "font_size": 11,
+        "bold": true,
+        "color": "#1E6B5C",
+        "align": "center",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "conclusion_banner",
+      "type": "shape",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 96,
+      "y": 226,
+      "w": 1726,
+      "h": 126,
+      "z_index": 5,
+      "shape": "rounded_rect",
+      "style": {
+        "fill": "#173B35",
+        "stroke": "transparent"
+      }
+    },
+    {
+      "id": "conclusion_label",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 132,
+      "y": 250,
+      "w": 220,
+      "h": 28,
+      "z_index": 12,
+      "text": "CONCLUSION",
+      "style": {
+        "font_size": 12,
+        "bold": true,
+        "color": "#99D8CA",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "conclusion_text",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 132,
+      "y": 284,
+      "w": 1510,
+      "h": 48,
+      "z_index": 12,
+      "text": "Demand remains resilient, with margin expansion driven by enterprise renewals and lower support cost per account.",
+      "style": {
+        "semantic_role": "conclusion",
+        "font_size": 21,
+        "bold": true,
+        "color": "#FFFFFF",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "metric_card_1",
+      "type": "shape",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 96,
+      "y": 400,
+      "w": 402,
+      "h": 214,
+      "z_index": 5,
+      "shape": "rounded_rect",
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#D8DED9",
+        "stroke_width": 1
+      }
+    },
+    {
+      "id": "metric_1_label",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 130,
+      "y": 426,
+      "w": 260,
+      "h": 28,
+      "z_index": 12,
+      "text": "NET REVENUE RETENTION",
+      "style": {
+        "font_size": 11,
+        "bold": true,
+        "color": "#6B7772",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "metric_1_value",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 130,
+      "y": 464,
+      "w": 220,
+      "h": 78,
+      "z_index": 12,
+      "text": "118%",
+      "style": {
+        "semantic_role": "key_metric",
+        "font_size": 43,
+        "bold": true,
+        "color": "#1E6B5C",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "metric_1_note",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 132,
+      "y": 548,
+      "w": 312,
+      "h": 40,
+      "z_index": 12,
+      "text": "+7 pts YoY from expansion in top-tier accounts",
+      "style": {
+        "font_size": 13,
+        "color": "#52615B",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "metric_card_2",
+      "type": "shape",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 538,
+      "y": 400,
+      "w": 402,
+      "h": 214,
+      "z_index": 5,
+      "shape": "rounded_rect",
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#D8DED9",
+        "stroke_width": 1
+      }
+    },
+    {
+      "id": "metric_2_label",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 572,
+      "y": 426,
+      "w": 260,
+      "h": 28,
+      "z_index": 12,
+      "text": "GROSS MARGIN",
+      "style": {
+        "font_size": 11,
+        "bold": true,
+        "color": "#6B7772",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "metric_2_value",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 572,
+      "y": 464,
+      "w": 220,
+      "h": 78,
+      "z_index": 12,
+      "text": "72.4%",
+      "style": {
+        "semantic_role": "key_metric",
+        "font_size": 43,
+        "bold": true,
+        "color": "#C5563E",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "metric_2_note",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 574,
+      "y": 548,
+      "w": 300,
+      "h": 40,
+      "z_index": 12,
+      "text": "+180 bps from automation and vendor renegotiation",
+      "style": {
+        "font_size": 13,
+        "color": "#52615B",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "scenario_card",
+      "type": "shape",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 980,
+      "y": 400,
+      "w": 842,
+      "h": 214,
+      "z_index": 5,
+      "shape": "rounded_rect",
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#D8DED9",
+        "stroke_width": 1
+      }
+    },
+    {
+      "id": "scenario_title",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 1020,
+      "y": 426,
+      "w": 360,
+      "h": 32,
+      "z_index": 12,
+      "text": "Forward scenario",
+      "style": {
+        "font_size": 19,
+        "bold": true,
+        "color": "#18221F",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "scenario_body",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 1020,
+      "y": 474,
+      "w": 720,
+      "h": 88,
+      "z_index": 12,
+      "text": "Base case assumes enterprise pipeline conversion stays above 31%, while SMB softness is offset by renewed channel contribution.",
+      "style": {
+        "font_size": 17,
+        "color": "#52615B",
+        "margin_pt": 0,
+        "line_spacing": 1.1
+      }
+    },
+    {
+      "id": "scenario_rule",
+      "type": "line",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 1020,
+      "y": 580,
+      "w": 720,
+      "h": 1,
+      "z_index": 12,
+      "style": {
+        "stroke": "#C9D2CC",
+        "stroke_width": 1
+      }
+    },
+    {
+      "id": "bottom_card_1",
+      "type": "shape",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 96,
+      "y": 674,
+      "w": 540,
+      "h": 254,
+      "z_index": 5,
+      "shape": "rounded_rect",
+      "style": {
+        "fill": "#EEF6F3",
+        "stroke": "#C8DDD6",
+        "stroke_width": 1
+      }
+    },
+    {
+      "id": "bottom_1_title",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 132,
+      "y": 708,
+      "w": 360,
+      "h": 30,
+      "z_index": 12,
+      "text": "Retention drivers",
+      "style": {
+        "font_size": 18,
+        "bold": true,
+        "color": "#173B35",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "bottom_1_body",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 132,
+      "y": 758,
+      "w": 430,
+      "h": 96,
+      "z_index": 12,
+      "text": "Contract expansions were concentrated in analytics, governance, and premium support bundles.",
+      "style": {
+        "font_size": 15,
+        "color": "#52615B",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "bottom_card_2",
+      "type": "shape",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 690,
+      "y": 674,
+      "w": 540,
+      "h": 254,
+      "z_index": 5,
+      "shape": "rounded_rect",
+      "style": {
+        "fill": "#FFF2EE",
+        "stroke": "#EDC9BE",
+        "stroke_width": 1
+      }
+    },
+    {
+      "id": "bottom_2_title",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 726,
+      "y": 708,
+      "w": 360,
+      "h": 30,
+      "z_index": 12,
+      "text": "Cost posture",
+      "style": {
+        "font_size": 18,
+        "bold": true,
+        "color": "#7B382A",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "bottom_2_body",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 726,
+      "y": 758,
+      "w": 430,
+      "h": 96,
+      "z_index": 12,
+      "text": "Support cost per account declined for the third consecutive quarter despite higher enterprise volume.",
+      "style": {
+        "font_size": 15,
+        "color": "#52615B",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "bottom_card_3",
+      "type": "shape",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 1284,
+      "y": 674,
+      "w": 538,
+      "h": 254,
+      "z_index": 5,
+      "shape": "rounded_rect",
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#D8DED9",
+        "stroke_width": 1
+      }
+    },
+    {
+      "id": "bottom_3_title",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 1320,
+      "y": 708,
+      "w": 360,
+      "h": 30,
+      "z_index": 12,
+      "text": "Next actions",
+      "style": {
+        "font_size": 18,
+        "bold": true,
+        "color": "#18221F",
+        "margin_pt": 0
+      }
+    },
+    {
+      "id": "bottom_3_body",
+      "type": "text",
+      "strategy": "rebuild",
+      "editable": true,
+      "x": 1320,
+      "y": 758,
+      "w": 430,
+      "h": 96,
+      "z_index": 12,
+      "text": "Prioritize renewal playbooks, tighten partner attribution, and validate Q3 hiring gates.",
+      "style": {
+        "font_size": 15,
+        "color": "#52615B",
+        "margin_pt": 0
+      }
+    }
+  ]
+}

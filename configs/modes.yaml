@@ -1,0 +1,17 @@
+balanced:
+  allow_full_page_image: false
+  prefer_editable_text: true
+  prefer_editable_shapes: true
+  allow_local_crops: true
+
+fidelity_first:
+  allow_full_page_image: true
+  prefer_editable_text: true
+  prefer_editable_shapes: false
+  allow_local_crops: true
+
+editability_first:
+  allow_full_page_image: false
+  prefer_editable_text: true
+  prefer_editable_shapes: true
+  allow_local_crops: false

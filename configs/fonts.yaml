@@ -1,0 +1,12 @@
+default_font: Microsoft YaHei
+
+fallbacks:
+  zh-CN:
+    - Microsoft YaHei
+    - PingFang SC
+    - Noto Sans CJK SC
+    - SimHei
+  en:
+    - Aptos
+    - Arial
+    - Helvetica
